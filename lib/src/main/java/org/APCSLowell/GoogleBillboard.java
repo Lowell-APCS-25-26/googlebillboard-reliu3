@@ -6,7 +6,7 @@ package org.APCSLowell;
 public class GoogleBillboard {
     public boolean isPrime(long n) {
         // Copy and paste your answer from CodingBat appropriatley here.
-        if(n < 2 || n%3 ==0) {
+        if(n < 2) {
             return false;
         }
                 
